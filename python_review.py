@@ -2,4 +2,3 @@
 
 print("hello, World")
 
-x = None
