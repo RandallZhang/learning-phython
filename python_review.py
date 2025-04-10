@@ -1,16 +1,32 @@
-# Name: Randall Zhang
+# problem 1
+#age = input("what's your age")
+#name = input("what's your name")
 
-print("hello, World")
+#print(name, age, type(name), type(age))
 
-x = None
+#problem 2
+# Ask the user for the two numbers
+#first_number = input("what's the first number")
+#second_number = input("what's the second number")
 
-example = "I'm a string" # The variable called example is the value "I'm a string"
-a = 3 # The variable called a is now holding the integer value 3
-b = 4.0 # The variable called b is now bolding the float value 4.0
-c = True # The variable called c is now holding the bolean value True
-d = False # The variable called d is now holding the bolean value False
-e ="Hey!" ##The variable called e is now holding the string
-f = None #The variable called f is now holding the none value none
-age = 32 # The variable called age is now holding the integer value 32
-name = "Insert your instrument here" # The variable called name is the value "Insert your instrument here"
-intrument = "Insert your instrument here" # The variable called instrument is the value "Insert your instrument here"
+# convert the numbers to integer versions of themselves
+#fist_number = int(firsit_number)
+#second_number = int(second_number)
+
+#compare the two numbers
+#if first_number > second_number:
+#    print(first_number, "is bigger")
+#elif first_number == second_number:
+#    print("the numbers are equal!")
+#else:
+#    print(second_number, "is bigger")
+
+#problem 5
+while " " in name:
+    name = name.replace(" ", "")
+#Ask the user for their name and save in varaible called name
+name = input("what's your full name")
+#Calculate the length of name
+length_of_name = len (name)
+#print the length
+print(length_of_name)
